@@ -1,4 +1,4 @@
-package xyz.gabrielrohez.viewmodel;
+package xyz.gabrielrohez.viewmodel.ui;
 
 import android.os.Bundle;
 import android.widget.TextView;
@@ -10,6 +10,7 @@ import androidx.lifecycle.ViewModelProviders;
 import butterknife.BindView;
 import butterknife.ButterKnife;
 import butterknife.OnClick;
+import xyz.gabrielrohez.viewmodel.R;
 import xyz.gabrielrohez.viewmodel.util.Sumar;
 import xyz.gabrielrohez.viewmodel.viewmodel.SumarViewModel;
 

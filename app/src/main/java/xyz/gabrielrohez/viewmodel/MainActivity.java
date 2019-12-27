@@ -8,6 +8,8 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import butterknife.ButterKnife;
 import butterknife.OnClick;
+import xyz.gabrielrohez.viewmodel.ui.UserViewModelActivity;
+import xyz.gabrielrohez.viewmodel.ui.ViewModelActivity;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -25,7 +27,7 @@ public class MainActivity extends AppCompatActivity {
                 startActivity(new Intent(getApplicationContext(), ViewModelActivity.class));
                 break;
             case R.id.btnUser:
-                //startActivity(new Intent(getApplicationContext(), UserViewModelActivity.class));
+                startActivity(new Intent(getApplicationContext(), UserViewModelActivity.class));
                 break;
             case R.id.btnLiveData:
                 //startActivity(new Intent(getApplicationContext(), LiveDataActivity.class));
